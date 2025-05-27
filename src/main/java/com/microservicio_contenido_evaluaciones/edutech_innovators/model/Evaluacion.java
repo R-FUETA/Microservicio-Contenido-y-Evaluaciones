@@ -13,7 +13,7 @@ public class Evaluacion {
 
     @Id // Identificador único de la entidad
     @GeneratedValue(strategy = GenerationType.IDENTITY) // Se genera automáticamente como autoincremental
-    @Column(name = "evaluacion_id") // Nombre explícito de la columna
+    @Column(name = "id") // Nombre explícito de la columna
     private Long evaluacionId;
 
     @Column(nullable = false)
